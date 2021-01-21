@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/57dee4794a.js" crossorigin="anonymous"></script>
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+    <div style="font-size: 11px;text-align: center;">
+        <p class="attribution"> Challenge by <a style="color: hsl(228, 45%, 44%);" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>. </p>
+    </div>
+
+
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="logo"><img src="images/logo.svg" alt=""></div>
+
+                <nav class="nav">
+                    <ul class="list">
+                        <a href="#" class="nav__link">Features</a>
+                        <a href="#" class="nav__link">Team</a>
+                        <a href="#" class="nav__link">Sign in</a>
+                    </ul>
+                </nav>
+
+            </div><!--header__inner-->
+        </div><!--container-->
+    </div><!--header-->
+
+
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div>
+
+                   <h2 class="intro__title">All your files in one secure location, accessible anywhere.</h2>
+                   <p class="intro__subtitle">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+
+                   <form action="/" method="post">
+                       <input class="form__email" type="email" name="email">
+                       <button class="btn btn--dark" type="submit">Get Started</button>
+                   </form>
+
+                </div>
+                <img class="main__img" src="images/illustration-1.svg" alt="">
+            </div><!--intro__inner-->
+        </div><!--container-->
+    </div><!--intro-->
+
+
+
+    <div class="features">
+
+       <div class="wrapper">
+           <img class="bg" src="images/bg-curve-desktop.svg" alt="">
+       </div>
+
+        <div class="container">
+
+            <div class="features__inner">
+                <div>
+                    <h2 class="features__title">Stay productive, wherever you are</h2>
+                    <p class="features__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                    <p class="features__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                    <a class="features__anchor" href="#">See how Fylo works<img src="images/icon-arrow.svg" alt=""></a>
+
+                    <div class="comment">
+                        <img src="images/icon-quotes.svg" alt="">
+                        <p class="comment__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div class="comment__profile">
+                            <img class="comment__image" src="images/avatar-testimonial.jpg" alt="">
+                            <h3 class="comment__title">Kyle Burton</h3>
+                            <div>Founder & CEO, Huddle</div>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="main__img" src="images/illustration-2.svg" alt="">
+            </div><!--features__inner-->
+
+        </div><!--container-->
+    </div><!--features-->
+
+
+    <div class="registration">
+        <div class="container">
+
+            <div class="registration__inner">
+
+                <div class="registration__left">
+                    <h2 class="registration__title">Get early access today</h2>
+                    <p class="registration__text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                </div>
+
+                <div class="registration__right">
+                    <form class="form" action="/" method="post">
+                       <input class="form__email form__email2" type="email" name="email">
+                       <button class="btn btn2" type="submit">Get Started For Free</button>
+                   </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+           <img src="images/logo-white.svg" alt="">
+            <div class="footer__inner">
+
+                <div class="first-row">
+                   <div class="line">
+                        <div class="string"><i class="fas fa-phone-alt icon" aria-hidden="true"></i></div>
+                        <div class="string">Phone: +1-543-123-4567</div>
+                   </div>
+
+                   <div class="line">
+                        <div><i class="far fa-envelope icon" aria-hidden="true"></i></div>
+                        <div>example@fylo.com</div>
+                   </div>
+                </div>
+
+                <div class="second-row">
+                    <div class="string"><a class="string__anchor" href="#">About Us</a></div>
+                    <div class="string"><a class="string__anchor" href="#">Join</a></div>
+                    <div class="string"><a class="string__anchor" href="#">Press</a></div>
+                    <div class="string"><a class="string__anchor" href="#">Blog</a></div>
+                </div>
+
+                <div class="third-row">
+                    <div class="string"><a class="string__anchor" href="#">Contact Us</a></div>
+                    <div class="string"><a class="string__anchor" href="#">Terms</a></div>
+                    <div class="string"><a class="string__anchor" href="#">Privacy</a></div>
+                </div>
+
+                <div class="fourth-row">
+                    <a href="#"><span class="icon__style"><i class="fab fa-facebook-f" aria-hidden="true"></i></span></a>
+
+                    <a href="#"><span class="icon__style icon__style2"><i class="fab fa-twitter" aria-hidden="true"></i></span></a>
+
+                    <a href="#"><span class="icon__style icon__style3"><i class="fab fa-instagram" aria-hidden="true"></i></span></a>
+                </div>
+            </div><!--footer__inner-->
+        </div><!--container-->
+    </div><!--footer-->
+
+</body>
+
+</html>
